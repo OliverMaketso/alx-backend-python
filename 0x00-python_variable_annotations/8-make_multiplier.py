@@ -1,4 +1,4 @@
-#!usr/bin/env python3
+#!/usr/bin/env python3
 """
 a type_annotated function that takes a float as an 
 argument and returns a function that multiplies a float by multiplier"""
@@ -12,5 +12,5 @@ def make_multiplier(multiplier: float) -> Callable[[float], float]:
     multiplier"""
     def mult_func(value: float) -> float:
         return value * multiplier
-  
+    
     return mult_func

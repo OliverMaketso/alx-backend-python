@@ -3,7 +3,8 @@
 a type-annotated function that takes a list input_list
 of floats as arguments and returns thier sum as a float
 """
-Vector = list[float]
+from typing import List
+Vector = List[float]
 
 
 def sum_list(input_list: Vector) -> float:

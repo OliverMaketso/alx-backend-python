@@ -3,6 +3,7 @@
 """
 from typing import Sequence, Tuple, List, Iterable
 
+
 def element_length(lst: Iterable[Sequence]) -> List[Tuple[Sequence, int]]:
     """
     This function takes a list of strings and returns a list of tuples
